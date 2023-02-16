@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - program that prints line without printf & puts
+ * main - program that prints line without printf & puts funnctio
  * Return: 1 (Success)
  */
 int main(void)
