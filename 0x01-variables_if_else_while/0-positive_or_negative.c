@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - program will assign a random number to the variable
+ * main - main function to genrate a random number
  * Return: Always 0 (Success)
  */
 int main(void)
