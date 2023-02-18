@@ -5,22 +5,22 @@
  */
 int main(void)
 {
-	int units = '0';
-	int tenth = '0';
+	int unit = '0';
+	int tens = '0';
 	int hund = '0';
 
 	for (hund = '0'; hund <= '9'; hund++)
 	{
-		for (tenth = '0'; tenth <= '9'; tenth++)
+		for (tens = '0'; tens <= '9'; tens++)
 		{
-			for (units = '0'; units <= '9'; units++)
+			for (unit = '0'; unit <= '9'; unit++)
 			{
-				if (!((units == tenth) || (tenth == hund) || (tenth > units) || (hund > tenth)))
+				if (!((unit == tens) || (tens == hund) || (tens > unit) || (hund > tens)))
 				{
 					putchar(hund);
-					putchar(tenth);
-					putchar(units);
-					if (!(units == '9' && hund == '7' && tenth == '8'))
+					putchar(tens);
+					putchar(unit);
+					if (!(unit == '9' && hund == '7' && tens == '8'))
 					{
 						putchar(',');
 						putchar(' ');
