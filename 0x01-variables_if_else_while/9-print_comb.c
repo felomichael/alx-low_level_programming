@@ -4,7 +4,7 @@
  * Return: Always 0 (Success)
  */
 int main (void)
-	{
+{
 	int num;
 
 	for (num = 0; num < 10; num++) 
@@ -18,4 +18,4 @@ int main (void)
 	}
 	putchar('\n');
 	return (0);
-	}
+}
