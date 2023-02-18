@@ -4,22 +4,18 @@
  * Return: Always 0 (Success)
  */
 int main (void)
-{
-	char alpha;
+	{
 	int num;
 
-	alpha = 'a';
-	num = 0;
-	while
-		(num < 10) {
-			putchar(num + '0');
-			num++;
+	for (num = 0; num < 10; num++) 
+	{
+		putchar(num + '0');
+		if (a < 9)
+		{
+			putchar(',');
+			putchar(' ')
 		}
-	while
-		(alpha <= 'f') {
-			putchar(alpha);
-			alpha++;
-		}
+	}
 	putchar('\n');
 	return (0);
-}
+	}
