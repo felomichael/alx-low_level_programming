@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * reset_to_98 - takes a pointer to int and update
+ * reset_to_98 - check the code
  * @n: integer input pointer
  * Return: nothing
  */
