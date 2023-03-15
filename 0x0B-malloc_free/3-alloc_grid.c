@@ -8,7 +8,7 @@
  * @height: height of the grid
  * Return: Nothing
  */
-int **alloc_gtid(int width, int height)
+int **alloc_grid(int width, int height)
 {
 	int i, j, k, l;
 	int **a;
