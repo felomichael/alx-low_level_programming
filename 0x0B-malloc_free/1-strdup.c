@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include "holberton.h"
 /**
  * *_strdup - returns a pointer to a newly allocated space in memory
  * @str: string to duplicate
