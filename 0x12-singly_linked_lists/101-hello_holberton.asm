@@ -1,12 +1,15 @@
-#include <stdio.h>
+SECTION .data
+msg:	db "Hello, Holberton", 0
+fmt:	db "%s", 10, 0
 
-/**
-* bmain - function exeucted before main
-* Return: no return.
-*/
+	SECTION .text
+	extern printf
+	global main
+main:
+	mov esi, msg
+	mov edi, fmt
+	mov eax, 0
+	call printf
 
-void _attribute_ ((constructor)) bmain()
-{
-	printf("You're beat! and yet, you must alllow");
-	Printf(",/nI bore my house upon my back!/n";
-}
+	mov eax, 0
+	ret
